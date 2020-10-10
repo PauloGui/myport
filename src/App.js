@@ -8,6 +8,7 @@ import Services from './components/PageServices';
 import Portfolio from './components/Portfolio';
 import Price from './components/Price';
 import Contact from './components/Contact';
+import Admin from './admin/Admin';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/price' component={Price} />
           <Route path='/contact' component={Contact} />
+          <Route path='/admin' component={Admin} />
           <Footer />
         </div>
       </BrowserRouter>
