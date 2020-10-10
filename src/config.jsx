@@ -12,7 +12,7 @@ const firebaseConfig = {
     measurementId: "G-0MCQMMDZP"
 }
 
-const app = firebase.initializeApp(config)
+const app = firebase.initializeApp(firebaseConfig)
 const config = Rebase.createClass(app.database())
 
 export default config
