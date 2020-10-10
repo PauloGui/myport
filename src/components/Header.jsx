@@ -29,7 +29,7 @@ const Header = props => {
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><Link to='/'>Início</Link></li>
+                            <li><Link to='/'>INICIO</Link></li>
                             <li><Link to='/servicos'>SERVIÇOS</Link></li>
                             <li><Link to='/portfolio'>PORTFOLIO</Link></li>
                             <li><Link to='/price'>PREÇOS</Link></li>
